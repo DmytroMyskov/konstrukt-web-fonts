@@ -1,0 +1,91 @@
+:root {
+  --primary-font: 'PT Sans', sans-serif;
+}
+
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0;
+
+  .container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1200px;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 20px;
+
+  a {
+    text-decoration: none;
+    font-family: 'Tourney', cursive;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+  }
+
+  :link,
+  :visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  p {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  img {
+    margin-left: auto;
+  }
+}
+
+main {
+
+  .title {
+    display: flex;
+    gap: 10px;
+    margin-block: 50px 20px;
+  }
+
+  h2 {
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  sup {
+    font-family: 'Farro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  p {
+    margin: 0;
+    padding-block: 20px;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .cursive {
+    font-style: italic;
+  }
+
+  .color {
+    background-color: #DADADA;
+  }
+}
